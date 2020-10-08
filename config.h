@@ -38,6 +38,9 @@ static const Rule rules[] = {
 	{ "St",      NULL,     NULL,           0,         0,          1,          -1,        -1 },
 	{ NULL,      NULL,     "Event Tester", 0,         1,          0,           1,        -1 }, /* xev */
 	{ "Microsoft Teams Notification",       NULL,     NULL,       		0,            	1,          0,			 0.		   -1 },
+	{ "zoom",    NULL,     "Participants", 0,         1,          0,          0,         -1 },
+	{ "zoom",    NULL,     "Chat",         0,         1,          0,          0,         -1 },
+	{ "zoom",    NULL,     "Polls",        0,         1,          0,          0,         -1 },
 };
 
 /* layout(s) */
