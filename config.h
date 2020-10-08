@@ -81,6 +81,7 @@ static Key keys[] = {
 	{ MODKEY,                       XK_space,  spawn,          {.v = firefoxcmd } },
 	{ MODKEY|ShiftMask,             XK_x,      spawn,          {.v = lockcmd } },
 	{ MODKEY,                       XK_x,      spawn,          {.v = shutdowncmd } },
+	{ MODKEY,                       XK_e,      spawn,          {.v = emojicmd } },
 	/* { MODKEY,                       XK_b,      togglebar,      {0} }, */
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
